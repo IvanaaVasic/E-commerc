@@ -1,0 +1,168 @@
+.dropbtn-products {
+  background-size: cover;
+  background-image: url(../img/menu_white.png);
+  color: white;
+  width: 30px;
+  height: 25px;
+}
+
+nav a {
+  color: #5f6274;
+}
+
+.nav-color:hover {
+  color: #bf7979;
+}
+
+.page-name {
+  font-family: MontserratSemiBold;
+  font-size: 45px;
+  color: #5f6274;
+  font-weight: normal;
+  text-align: center;
+}
+
+.tops-images {
+  display: flex;
+  flex-direction: column;
+  padding-top: 180px;
+  align-items: center;
+}
+
+.products-images {
+  width: 250px;
+  height: auto;
+  margin: 30px;
+}
+
+.tops-image-holder {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.products-images-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.images-text-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.images-text-holder:hover {
+  transform: scale(1.1);
+  transition: ease-out 0.5s;
+}
+
+.images-text-holder div {
+  font-family: MontserratItalic;
+  color: #5f6274;
+}
+
+.overlay-button-1 {
+  position: absolute;
+  bottom: 65px;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.overlay-button-2 {
+  position: absolute;
+  bottom: 65px;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.overlay-button-3 {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  opacity: 0;
+}
+
+.images-text-holder:hover .overlay-button-1 {
+  opacity: 1;
+}
+
+.images-text-holder:hover .overlay-button-2 {
+  opacity: 1;
+}
+
+.images-text-holder:hover .overlay-button-3 {
+  opacity: 1;
+}
+
+.tops-price {
+  font-weight: bold;
+}
+
+.products-choice {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.top-space {
+  padding-top: 170px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 835px) {
+  .products-images {
+    width: 340px;
+    height: 340px;
+    margin: 30px 0px;
+  }
+
+  .tops-image-holder {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-name {
+    font-size: 48px;
+    margin-top: 30px;
+  }
+
+  .overlay-button-3 {
+    top: 45px;
+    right: 15px;
+  }
+
+  .first-part-products {
+    height: auto;
+  }
+
+  .products-choice {
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .products-images {
+    width: 350px;
+  }
+
+  .first-part-products {
+    padding-bottom: 100px;
+  }
+
+  .page-name {
+    font-size: 170px;
+  }
+
+  .images-text-holder div {
+    font-size: 19px;
+  }
+}

@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <title>Products</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css?10" />
+    <link rel="stylesheet" type="text/css" href="css/products.css?15" />
+    <link rel="stylesheet" type="text/css" href="css/store.css?15" />
+    <script src="js/store.js" async></script>
+  </head>
+  <body>
+    <header class="header">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="products.html" class="home-menu-mobile common-styles">Proizvodi</a>
+      </div>
+      <span
+        class="displ-butt"
+        style="font-size: 30px; cursor: pointer; color: #bf7979; margin-top: 20px; margin-left: 10px"
+        onclick="openNav()"
+        >&#9776;</span
+      >
+      <div class="logo">E Commerce Prototype</div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="products.html" class="nav-color">PROIZVODI</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-media-icon">
+        <div class="dropdownS">
+          <div class="dropbtnS" onclick="showCart()"></div>
+          <div class="number-of-items">(0)</div>
+          <div id="myDropdownS" class="dropdown-contentS">
+            <div class="header-icon-cart">
+              <img class="close-content" onclick="showCart()" src="img/pinkarrow2.png" />
+              <h2 class="section-header">Your shopping cart</h2>
+              <img class="cart-icon" src="img/shoping-bag-pink.png" />
+            </div>
+            <hr class="dotted" />
+
+            <div class="cart-items"></div>
+            <a href="checkout.html" class="btn btn-primary btn-purchase" type="button"> Check Out </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="products-choice">
+      <div class="products-images-holder">
+        <h1 class="page-name">Patike</h1>
+        <div class="tops-image-holder">
+          <a href="metcon.html"
+            ><div class="images-text-holder">
+              <img src="covers/sneakers1.png" class="products-images" />
+
+              <a href="metcon.html">
+                <div class="overlay-button-3">
+                  <img src="img/arrow-grey.png" /></div
+              ></a>
+              <div class="tops-name">Nike Metcon 7</div>
+              <div class="tops-price">3.000,0 RSD</div>
+            </div></a
+          >
+          <a href="superRep.html"
+            ><div class="images-text-holder">
+              <img src="covers/sneakers2.jpeg " class="products-images" />
+
+              <a href="superRep.html">
+                <div class="overlay-button-3">
+                  <img src="img/arrow-grey.png" /></div
+              ></a>
+              <div class="tops-name">Nike SuperRep Go 2</div>
+              <div class="tops-price">3.100,0 RSD</div>
+            </div></a
+          >
+          <a href="zoomX.html"
+            ><div class="images-text-holder">
+              <img src="covers/sneakers3.jpeg" class="products-images" />
+
+              <a href="zoomX.html">
+                <div class="overlay-button-3">
+                  <img src="img/arrow-grey.png" /></div
+              ></a>
+              <div class="tops-name">Nike ZoomX SuperRep</div>
+              <div class="tops-price">3.400,0 RSD</div>
+            </div></a
+          >
+        </div>
+        <div class="tops-image-holder">
+          <a href="airMax.html"
+            ><div class="images-text-holder">
+              <img src="covers/sneeakers4.jpeg" class="products-images" />
+
+              <a href="airMax.html">
+                <div class="overlay-button-3">
+                  <img src="img/arrow-grey.png" /></div
+              ></a>
+              <div class="tops-name">Nike Air Max Bella TR 4</div>
+              <div class="tops-price">3.600,0 RSD</div>
+            </div></a
+          >
+          <a href="torr.html"
+            ><div class="images-text-holder">
+              <img src="covers/sneakers5.jpeg" class="products-images" />
+
+              <a href="torr.html">
+                <div class="overlay-button-3">
+                  <img src="img/arrow-grey.png" /></div
+              ></a>
+              <div class="tops-name">Nike Air Torr</div>
+              <div class="tops-price">3.200,0 RSD</div>
+            </div></a
+          >
+          <a href="groove.html"
+            ><div class="images-text-holder">
+              <img src="covers/sneackers6.jpeg" class="products-images" />
+
+              <a href="groove.html">
+                <div class="overlay-button-3">
+                  <img src="img/arrow-grey.png" /></div
+              ></a>
+              <div class="tops-name">Nike SuperRep Groove</div>
+              <div class="tops-price">3.800,0 RSD</div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+    <script src="js/common.js"></script>
+  </body>
+</html>
